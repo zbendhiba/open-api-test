@@ -1,0 +1,65 @@
+---
+openapi: 3.0.3
+info:
+  title: openapi-swaggerui-quickstart API
+  version: 1.0.0-SNAPSHOT
+paths:
+  /fruits:
+    get:
+      tags:
+        - Fruit Resource
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                uniqueItems: true
+                type: array
+                items:
+                  $ref: '#/components/schemas/Fruit'
+    post:
+      tags:
+        - Fruit Resource
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Fruit'
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                uniqueItems: true
+                type: array
+                items:
+                  $ref: '#/components/schemas/Fruit'
+    delete:
+      tags:
+        - Fruit Resource
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Fruit'
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                uniqueItems: true
+                type: array
+                items:
+                  $ref: '#/components/schemas/Fruit'
+components:
+  schemas:
+    Fruit:
+      type: object
+      properties:
+        name:
+          type: string
+        description:
+          type: string
