@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="971748bf-eab8-472c-b3c1-7b13ff8a2fb2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../openapi-producer-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../openapi-producer-test/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MVf2vvRq4srmVi1l0MybPuGF3w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/zbendhib/dev/open-api-test/openapi-producer-test2/src/main/java/test/openapi/producer&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/test/openapi/producer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.openapi.producer" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="openapi-producer-test2" type="QuarkusRunConfigurationType" factoryName="Quarkus">
+      <module name="openapi-producer-test2" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="$PROJECT_DIR$/gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="$PROJECT_DIR$/src/main/resources/my-openapi-spec.yaml" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="971748bf-eab8-472c-b3c1-7b13ff8a2fb2" name="Changes" comment="" />
+      <created>1677857467929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677857467929</updated>
+      <workItem from="1677857469360" duration="5382000" />
+      <workItem from="1680091124049" duration="687000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

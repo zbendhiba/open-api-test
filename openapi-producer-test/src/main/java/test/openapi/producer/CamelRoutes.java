@@ -27,7 +27,7 @@ public class CamelRoutes extends RouteBuilder {
     @Singleton
     public Component petstore() throws URISyntaxException {
         RestOpenApiComponent fruitStore = new RestOpenApiComponent(context);
-        final var specificationHost = String.format("%s/q/openapi?format=YAML", openApiProviderHost);
+        final var specificationHost = String.format("%s/q/openapi?format=json", openApiProviderHost);
         fruitStore.setSpecificationUri(new URI(specificationHost));
         fruitStore.setHost(openApiProviderHost);
         return fruitStore;
